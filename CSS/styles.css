@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 140, 255);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px;
+}
+button {
+    background-color: #1495eb;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+}
+button:hover {
+    background-color: rgb(0, 26, 255);
+    color: rgb(0, 225, 255);
+}
+.foto {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}

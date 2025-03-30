@@ -50,3 +50,33 @@ img {
 h2 {
     text-align: center;
 }
+table {
+    margin: 0 auto
+}
+td {
+    padding: 20px
+}
+.laranja {
+    background-color: #F4A460
+}
+.azul {
+    background-color: #87CEFA
+}
+.roxo {
+    background-color: #836FFF;
+}
+.preto {
+    background-color: 	#696969;
+}
+.verde {
+    background-color: #66CDAA;
+}
+.vermelho {
+    background-color: #FA8072;
+}
+.campos {
+    margin: 20px;
+}
+.campos label {
+    margin-right: 10px;
+}

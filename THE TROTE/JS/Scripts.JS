@@ -9,8 +9,8 @@ function calcular (){
     let kit = Number(document.getElementById ("kit").value)
     let equipe = document.getElementById("equipe").value
     let pontosKit = 0
-    if (equipe == "Laranja"){
-        if (kit >= 97) {
+    if (equipe == "Laranja") {
+        if (kit >= 97 && suplemento>=49) {
         pontosKit = 5000 + ((kit - 97)*30)
         }
         else if (kit >=78) {
@@ -26,7 +26,7 @@ function calcular (){
             pontosKit = 0
         }
     }
-    if (equipe == "Roxa"){
+    if (equipe == "Roxa") {
         if (kit >= 102) {
         pontosKit = 5000 + ((kit - 102)*30)
         }
@@ -43,7 +43,7 @@ function calcular (){
             pontosKit = 0
         }
     }
-    if (equipe == "Preta"){
+    if (equipe == "Preta") {
         if (kit >= 103) {
         pontosKit = 5000 + ((kit - 103)*30)
         }
@@ -60,7 +60,7 @@ function calcular (){
             pontosKit = 0
         }
     }
-    if (equipe == "Verde"){
+    if (equipe == "Verde") {
         if (kit >=88) {
         pontosKit = 5000 + ((kit - 88)*30)
         }
@@ -77,7 +77,7 @@ function calcular (){
             pontosKit = 0
         }
     }
-    if (equipe == "Vermelha"){
+    if (equipe == "Vermelha") {
         if (kit >= 93) {
         pontosKit = 5000 + ((kit - 93)*30)
         }

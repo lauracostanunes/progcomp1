@@ -80,3 +80,24 @@ td {
 .campos label {
     margin-right: 10px;
 }
+.campos input
+    {width: 80px; 
+     border: 1px solid #42818b;
+     border-radius: 10px;
+     outline: none;
+     font-size: 17px;
+     color: rgb(0, 0, 0);    
+    }
+    #equipe {
+        border: none;
+        background-color:#008080;
+        border-radius: 5px;
+        width: 100px;
+        height: 25px;
+        font-size: 15.5px;
+        color: white;   
+    }
+    #equipe:hover{
+        background-color:#20B2AA;
+    }
+    

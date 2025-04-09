@@ -8,8 +8,9 @@
         <script src="./JS/Scripts.JS"> </script>
     </head>
    <body>
-    <header>
-        Trote Solidário - 2025
+    <header id="titulo">
+        <span style="margin-right: 110px;"> Trote Solidário - 2025</span>
+         <img class="logo1" src="Imagem/Logo.jpg" alt="logo facef" />
     </header>
     <nav>
         <div id="links-menu">
@@ -22,7 +23,6 @@
             <a href="observacoes.html"> Observações </a>
             <a href="calculadoras.html"> Calculadoras </a>
         </div>
-        <img src="Imagem/Trote.jpg"/>
     </nav>
     <div class = "container">
         <h2>
@@ -82,6 +82,14 @@
             <div class = "campos">
                 <label> Óleo </label>
                 <input type = "number" id="oleo"/>
+            </div>
+            <div class="campos">
+                <label> Doação de Sangue </label>
+                <input type="number" id="sangue"/>
+             </div>
+             <div class="campos">
+                <label> Registro Audiovisual </label>
+                <input type="number" id="audiovisual" />
             </div>
             <div class="campos">
                 <button type= "button" onclick= "calcular()"> Calcular </button>

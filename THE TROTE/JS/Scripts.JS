@@ -108,5 +108,50 @@ function calcular (){
     soma = soma + Number(0.5* (macarrao))
     let oleo = document.getElementById ("oleo").value
     soma = soma + Number(1* (oleo))
+    let pontosSangue = 0
+    let sangue = Number(document.getElementById("sangue").value)
+    if (equipe == "Laranja")
+        if (sangue >= 49) {
+            pontosSangue = 2500 + (sangue - 49) * 20
+        }
+        else {
+            pontosSangue = sangue * 20
+        }
+
+    else if (equipe == "Preta")
+        if (sangue >= 52) {
+            pontosSangue = 2500 + (sangue - 52) * 20
+        }
+        else {
+            pontosSangue = sangue * 20
+        }
+
+    else if (equipe == "Roxa")
+        if (sangue >= 51) {
+            pontosSangue = 2500 + (sangue - 51) * 20
+        }
+        else {
+            pontosSangue = sangue * 20
+        }
+
+    else if (equipe == "Verde")
+        if (sangue >= 44) {
+            pontosSangue = 2500 + (sangue - 44) * 20
+        }
+        else {
+            pontosSangue = sangue * 20
+        }
+
+    else {
+        if (sangue >= 47) {
+            pontosSangue = 2500 + (sangue - 47) * 20
+        }
+        else {
+            pontosSangue = sangue * 20
+        }
+    }
+    soma = soma + pontosSangue
+    let audiovisual = document.getElementById("audiovisual").value
+    soma = soma + Number(audiovisual)
     document.getElementById ("soma").innerHTML = soma.toFixed(2)
 }

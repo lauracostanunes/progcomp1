@@ -96,18 +96,22 @@ function calcular (){
         }
     }
     soma = soma + pontosKitSupl
-    let arroz5 = document.getElementById ("arroz5").value
-    soma = soma + Number(5* (arroz5))
-    let arroz1 = document.getElementById ("arroz1").value
-    soma = soma + Number(1* (arroz1))
-    let feijao2 = document.getElementById ("feijao2").value
-    soma = soma + Number(2* (feijao2))
-    let feijao1 = document.getElementById ("feijao1").value
-    soma = soma + Number(1* (feijao1))
+    let arroz = document.getElementById ("arroz").value
+    soma = soma + Number(arroz)
+    let feijao = document.getElementById ("feijao").value
+    soma = soma + Number(1* (feijao))
     let macarrao = document.getElementById ("macarrao").value
     soma = soma + Number(0.5* (macarrao))
     let oleo = document.getElementById ("oleo").value
     soma = soma + Number(1* (oleo))
+    let audiovisual = document.getElementById("audiovisual").value
+    soma = soma + Number(audiovisual)
+    let mascote = document.getElementById("mascote").value
+    soma = soma + Number(mascote)
+    let torcida = document.getElementById("torcida").value
+    soma = soma + Number(torcida)
+    let recreacao = document.getElementById("recreacao").value
+    soma = soma + Number(recreacao)
     let pontosSangue = 0
     let sangue = Number(document.getElementById("sangue").value)
     if (equipe == "Laranja")
@@ -151,11 +155,5 @@ function calcular (){
         }
     }
     soma = soma + pontosSangue
-    let audiovisual = document.getElementById("audiovisual").value
-    soma = soma + Number(audiovisual)
-    let mascote = document.getElementById("mascote").value
-    soma = soma + Number(mascote)
-    let torcida = document.getElementById("torcida").value
-    soma = soma + Number(torcida)
     document.getElementById ("soma").innerHTML = soma.toFixed(2)
 }

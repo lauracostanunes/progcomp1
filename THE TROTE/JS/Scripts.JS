@@ -153,5 +153,9 @@ function calcular (){
     soma = soma + pontosSangue
     let audiovisual = document.getElementById("audiovisual").value
     soma = soma + Number(audiovisual)
+    let mascote = document.getElementById("mascote").value
+    soma = soma + Number(mascote)
+    let torcida = document.getElementById("torcida").value
+    soma = soma + Number(torcida)
     document.getElementById ("soma").innerHTML = soma.toFixed(2)
 }

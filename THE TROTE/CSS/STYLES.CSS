@@ -49,7 +49,7 @@ nav a:hover {
     border-radius: 10px;
     text-align: justify;
     border: 1px solid;
-}
+    }   
 h2 {
     text-align: center;
     text-decoration: underline;
@@ -113,26 +113,27 @@ h4 {
 }
 .campos {
     margin: 20px;
+    justify-content: center;
 }
 .campos label {
     margin-right: 10px;
 }
-.campos input
-    {width: 80px; 
+.campos input {
+     width: 80px; 
      border: 1px solid #42818b;
      border-radius: 10px;
      outline: none;
      font-size: 17px;
      color: rgb(0, 0, 0);    
     }
-    #equipe {
-        border: none;
-        background-color:#008080;
-        border-radius: 5px;
-        width: 100px;
-        height: 25px;
-        font-size: 15.5px;
-        color: black;   
+#equipe {
+    border: none;
+    background-color:#008080;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    font-size: 15.5px;
+    color: black;   
     }
     #equipe:hover{
         background-color:#20B2AA;
@@ -164,6 +165,7 @@ h4 {
         background-color: #87CEFA;
         border: 1px solid;
         border-color: black;
+        margin: 0 auto;
     }
     #fonte {
         font-size: 12px;
@@ -192,6 +194,7 @@ h4 {
         background-color: #87CEFA;
         border: 1px solid;
         border-color: black;
+        margin: 0 auto;
     }
     #linha-1-container3 {
         text-align: center;
@@ -208,11 +211,12 @@ h4 {
     }
     .container4 {
         text-align: justify;
-        width: 40%;
+        width: 50%;
         padding: 10px;
         background-color:#87CEFA;
         border: 1px solid;
         border-color: black;
+        margin: 0 auto;
     }
     #linha-1-container4 {
         text-decoration: underline;
@@ -227,14 +231,16 @@ h4 {
         border: 1px solid;
         border-color: black;
         background-color: #87CEFA;
+        margin: 0 auto;
     }
     .container6 {
         text-align: justify;
-        width: 40%;
+        width: 50%;
         padding: 10px;
         background-color:#87CEFA;
         border: 1px solid;
         border-color: black;
+        margin: 0 auto;
     }
     .Tabela6 {
         text-align: center;
@@ -253,6 +259,7 @@ h4 {
         background-color: #87CEFA;
         border: 1px solid;
         border-color: black;
+        margin: 0 auto;
     }
     #linha-1-container7 {
         text-align: justify;
@@ -260,11 +267,12 @@ h4 {
     }
     .container8 {
         text-align: justify;
-        width: 45%;
+        width: 50%;
         padding: 5px;
         background-color: #87CEFA;
         border: 1px solid;
         border-color: black;
+        margin: 0 auto;
     }
     #linha-1-container8 {
         margin-left: 10px;
@@ -286,11 +294,12 @@ h4 {
     }
     .container9 {
         text-align: justify;
-        width: 46%;
+        width: 50%;
         padding: 8px;
         border: 1px solid;
         border-color: black;
         background-color: #87CEFA;
+        margin: 0 auto;
     }
     .campus {
         margin: 10px;
@@ -350,3 +359,35 @@ h4 {
        color: white;
        font-size: 25px;
       }
+button {
+    background-color: #008080;
+    color: white;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    }
+button:hover {
+        background-color: #00CED1;
+    }
+.container form {
+    max-width: 600px;
+    margin: 0 auto;
+    }
+.campos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    }
+    .campos label {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+    }
+    .campos input, .campos select {
+    flex: 1;
+    padding: 5px;
+    }    

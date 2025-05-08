@@ -6,7 +6,6 @@ function pesquisaSatisfacao(){
     let insatisfeitos = 0;
     while (conta <= 10) {
         nota = Number(prompt(`Informe a nota (0 - 10) do participante${conta}`));
-        soma = soma + nota;
         if (nota >= 8 && nota <=10){
             satisfeitos++;
         } 
@@ -17,6 +16,7 @@ function pesquisaSatisfacao(){
             alert('Nota inválida')
             continue
         }
+        soma = soma + nota;
         conta++;
     }
     let media = soma / 10;

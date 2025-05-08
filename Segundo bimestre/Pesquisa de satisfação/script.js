@@ -5,12 +5,17 @@ function pesquisaSatisfacao(){
     let satisfeitos = 0;
     let insatisfeitos = 0;
     while (conta <= 10) {
-        nota = Number(prompt(`Informe a nota (0 - 10) do participante ${conta}`));
+        nota = Number(prompt(`Informe a nota (0 - 10) do participante${conta}`));
         soma = soma + nota;
-        if (nota >= 8) {
+        if (nota >= 8 && nota <=10){
             satisfeitos++;
-        } else if (nota >= 0 && nota < 5) {
+        } 
+        else if (nota >= 0 && nota < 5){
             insatisfeitos++;
+        }
+        else if (nota < 0 || nota > 10) {
+            alert('Nota inválida')
+            continue
         }
         conta++;
     }
